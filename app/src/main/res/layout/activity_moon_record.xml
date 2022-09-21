@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/helloMoonFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.kood.moonrecord.MoonRecordFragment">
+    <!--MoonRecordFragment’s view hosted by MoonRecordActivity.
+        That is all it takes to host a layout fragment.
+         Naming the fragment class in the layout and it was added to the activity
+         and put on screen.
+          Here is what happened behind the scenes.
+           When MoonRecordActivity called .setContentView(…) and inflated activity_moon_record.xml,
+            it found the fragment element.
+             At that point, the FragmentManager created an instance of MoonRecordFragment and
+             added it to its list.
+              It then called MoonRecordFragment’s onCreateView(…) and placed the view that this
+              method returns in the spot that the fragment tag was keeping warm.-->
+</fragment>

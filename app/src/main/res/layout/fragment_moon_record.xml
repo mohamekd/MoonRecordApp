@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_moon_record">
+
+    <ImageView
+        android:src="@drawable/armstrong_on_moon"
+        android:contentDescription="@string/moonRecord_description"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        />
+    <!--TableRow widget does not have to declare height and width attributes.
+    It uses the TableLayout’s width and height as well as every other attribute of the TableLayout -->
+    <TableRow
+        android:gravity="center|bottom"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/play_audio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moonRecord_play"
+            android:layout_marginEnd="6dp"
+            />
+<!--        <Button-->
+<!--            android:id="@+id/pause_audio_btn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/moonRecord_pause"-->
+<!--            android:layout_marginStart="6dp"-->
+<!--            android:layout_marginEnd="6dp"-->
+<!--            />-->
+        <Button
+            android:id="@+id/stop_audio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moonRecord_stop"
+            android:layout_marginStart="6dp"
+            />
+
+    </TableRow>
+
+</TableLayout>

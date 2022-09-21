@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Registro lunar</string>
+  <string name="moonRecord_play">Tocar</string>
+  <string name="moonRecord_stop">Detener</string>
+  <string name="moonRecord_description">Neil Armstrong pisando la luna</string>
+</resources>
